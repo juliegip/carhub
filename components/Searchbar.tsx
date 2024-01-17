@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation"
 
 import { SearchManufacturer } from "."
 import Image from "next/image"
-import { Router } from "next/router"
 
 const SearchButton = ({otherClasses} : {otherClasses:string} ) => (
   <button type="submit" className={`-ml3 z-10 ${otherClasses}`}>
